@@ -1,0 +1,10 @@
+$ jest
+PASS src/components/Button/Button.test.tsx
+  CounterButton
+    ✓ renders without crashing (23 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.005 s, estimated 4 s
+Ran all test suites.
