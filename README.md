@@ -1,20 +1,21 @@
-# `turborepo` kitchen sink starter
-
-This is an official Yarn v1 starter Turborepo with multiple meta-frameworks all working in harmony and sharing packages.
-
-## What's inside?
-
-This Turborepo includes the following packages and apps:
+Based on TurboRepo Kitchen Sing Starter
 
 ### Apps and Packages
 
-- `api`: an [Express](https://expressjs.com/) server
-- `app`: a [Next.js](https://nextjs.org) app
-- `ui`: a dummy React UI library (which contains a single `<CounterButton>` component)
+- `api`: localhost:3000 - an [NestJS](https://nestjs.com/) server
+- `app`: localhost:3001 - a [Next.js](https://nextjs.org) app
+- `ui`: a [Chakra-UI](https://chakra-ui.com/) based design system
 - `scripts`: Jest and eslint configurations
 - `tsconfig`: tsconfig.json;s used throughout the monorepo
 
 Each package and app is 100% [Typescript](https://www.typescriptlang.org/).
+
+### Scripts
+
+- `yarn` - install dependencies
+- `yarn build` - build the monorepo
+- `yarn test` - run tests
+- `yarn dev` - run projects
 
 ### Utilities
 
@@ -24,3 +25,10 @@ This turborepo has some additional tools already setup for you:
 - [ESLint](https://eslint.org/) for code linting
 - [Jest](https://jestjs.io) test runner for all things JavaScript
 - [Prettier](https://prettier.io) for code formatting
+
+### ToDos
+
+[x] yarn dev running NestJS 3000, NextJS 3001
+[x] yarn test running tests in all projects correctly
+[] Generate API schema with PrismaJS
+[] Share Types between API and Front End

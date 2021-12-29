@@ -1,0 +1,7 @@
+$ TIMING=1 next lint
+Rule | Time (ms) | Relative
+:----|----------:|--------:
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+Error: Failed to load config "next" to extend from.
+Referenced from: /Users/patrickullrich/src/boilerplate/apps/app/.eslintrc
+error Command failed with exit code 1.
