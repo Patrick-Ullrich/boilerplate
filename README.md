@@ -28,7 +28,7 @@ This turborepo has some additional tools already setup for you:
 
 ### ToDos
 
-[x] yarn dev running NestJS 3000, NextJS 3001
-[x] yarn test running tests in all projects correctly
-[] Generate API schema with PrismaJS
-[] Share Types between API and Front End
+- [x] yarn dev running NestJS 3000, NextJS 3001
+- [x] yarn test running tests in all projects correctly
+- [] Generate API schema with PrismaJS
+- [] Share Types between API and Front End
