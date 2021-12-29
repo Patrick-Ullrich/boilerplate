@@ -10,6 +10,9 @@ Based on TurboRepo Kitchen Sing Starter
 
 Each package and app is 100% [Typescript](https://www.typescriptlang.org/).
 
+If you are running the postgres database using the `docker-compose.yml` file, you will need to add to the API `.env` file:
+`DATABASE_URL="postgresql://postgres:postgres@localhost:5432/boilerplate?schema=public"`
+
 ### Scripts
 
 - `yarn` - install dependencies
@@ -30,5 +33,5 @@ This turborepo has some additional tools already setup for you:
 
 - [x] yarn dev running NestJS 3000, NextJS 3001
 - [x] yarn test running tests in all projects correctly
-- [] Generate API schema with PrismaJS
-- [] Share Types between API and Front End
+- [ ] Generate API schema with PrismaJS
+- [ ] Share Types between API and Front End
